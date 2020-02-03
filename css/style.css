@@ -47,7 +47,7 @@ body {
   color: red;
 }
 
-@keyframes animate-text {
+/* @keyframes animate-text {
   0% {
     width: 0ch;
   }
@@ -63,11 +63,23 @@ body {
   font-family: Consolas;
   width: 31ch;
   border-right: 2px solid #fff;
-}
+} */
 
 /* portfolio padding breakpoint */
 @media (min-width: 1199px) {
   .portfolio-item {
     padding: 3em !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .lead-header {
+    font-size: 1.2rem;
+  }
+  .social-icons {
+    margin: 0 -12px;
   }
 }
