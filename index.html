@@ -189,7 +189,7 @@
 
         <div class="card card-body py-4">
           <p class="lead">Write a message for me below</p>
-          <form>
+          <form method="POST" data-netlify="true">
               <div class="form-group">
               <div class="input-group input-group-lg">
                   <div class="input-group-prepend">
@@ -197,7 +197,7 @@
                           <i class="fas fa-user"></i>
                       </span>
                   </div>
-                  <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                  <input type="text" class="form-control bg-dark text-white" name="name" placeholder="Name">
               </div>
             </div>
 
@@ -208,7 +208,7 @@
                           <i class="fas fa-envelope"></i>
                       </span>
                   </div>
-                  <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                  <input type="email" class="form-control bg-dark text-white" name="emailId" placeholder="Email">
               </div>
             </div>
 
@@ -219,7 +219,7 @@
                           <i class="fas fa-pencil-alt"></i>
                       </span>
                   </div>
-                  <textarea type="text" class="form-control bg-dark text-white" placeholder="Description"></textarea>
+                  <textarea type="text" class="form-control bg-dark text-white" name="description" placeholder="Description"></textarea>
               </div>
             </div>
 
