@@ -74,12 +74,13 @@ body {
 
 @media (max-width: 540px) {
   .title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .lead-header {
     font-size: 1.2rem;
   }
-  .social-icons {
-    margin: 0 -12px;
+  i.fab {
+    font-size: 1.5rem;
+    margin-right: 15px;
   }
 }
